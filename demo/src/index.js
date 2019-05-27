@@ -1,15 +1,17 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 
-import Example from '../../src'
+import SlateEditor from '../../src'
 
-class Demo extends Component {
-  render() {
-    return <div>
-      <h1>hh-slate-editor Demo</h1>
-      <Example/>
-    </div>
+export default class App extends Component {
+  render () {
+    return (
+      <div>
+        <h1>Slate Editor Demo</h1>
+        <SlateEditor text='Modern React component module' />
+      </div>
+    )
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+ReactDOM.render(<App />, document.getElementById('demo'))

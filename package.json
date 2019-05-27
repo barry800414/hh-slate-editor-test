@@ -19,14 +19,32 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "font-awesome": "^4.7.0",
+    "immutable": "^4.0.0-rc.12",
+    "is-hotkey": "^0.1.4",
+    "ismobilejs": "^0.5.1",
+    "lodash": "^4.17.11",
+    "rc-tooltip": "^3.7.3",
+    "react-fontawesome": "^1.6.1",
+    "react-responsive-modal": "^3.5.1",
+    "slate": "^0.44.9",
+    "slate-html-serializer": "^0.7.33",
+    "slate-react": "https://github.com/hahow/slate/releases/download/slate-react%400.21.14/slate-react-0.21.14.tgz",
+    "slate-soft-break": "^0.9.0"
+  },
   "peerDependencies": {
-    "react": "16.x"
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": "2.0.0"
   },
   "devDependencies": {
     "nwb": "0.23.x",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": "2.0.0"
   },
   "author": "",
   "homepage": "",

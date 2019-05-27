@@ -1,9 +1,6 @@
-import React, {Component} from 'react'
 
-export default class extends Component {
-  render() {
-    return <div>
-      <h2>Welcome to React components</h2>
-    </div>
-  }
-}
+import 'font-awesome/css/font-awesome.css';
+
+import SlateEditor from './SlateEditor.component';
+
+export default SlateEditor;
